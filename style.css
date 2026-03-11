@@ -199,7 +199,7 @@ header {
 .mega-menu {
     position: absolute;
     top: 100%;
-    left: -300px;
+    left: -21vw;
     width: 70vw; /* Changed from 100vw to 100% of header */
     background-color: #FFFFFF;
     color: #000000;
