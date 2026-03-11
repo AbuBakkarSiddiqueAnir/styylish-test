@@ -180,14 +180,11 @@ header {
     transition: transform 0.3s ease, letter-spacing 0.3s ease;
 }
 
-.nav-center > ul > li:hover > a {
-    transform: translateY(-2px);
-    letter-spacing: 0.08em;
-}
+
 
 .nav-center > ul > li:hover > a,
 .nav-center > ul > li.active > a {
-    font-weight: 800;
+    font-weight: 600;
 }
 
 .nav-center > ul > li::before {
@@ -202,8 +199,8 @@ header {
 .mega-menu {
     position: absolute;
     top: 100%;
-    left: -200px;
-    width: 80vw; /* Changed from 100vw to 100% of header */
+    left: -300px;
+    width: 70vw; /* Changed from 100vw to 100% of header */
     background-color: #FFFFFF;
     color: #000000;
     visibility: hidden;
